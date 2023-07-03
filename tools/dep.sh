@@ -31,9 +31,15 @@ pacman -Syu --noconfirm --needed                       \
     openblas                                           \
     r
 
-# dynr dependencies
-# nloptr cmake
+# gsl
 pacman -Syu --noconfirm --needed                       \
-    cmake                                              \
     gsl
+    
+# nloptr
+pacman -Syu --noconfirm --needed                       \
+    cmake
 
+# misc3d
+pacman -Syu --noconfirm --needed                       \
+    tcl                                                \
+    tk
