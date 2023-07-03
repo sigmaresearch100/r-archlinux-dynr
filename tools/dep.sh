@@ -30,3 +30,8 @@ pacman -Syu --noconfirm --needed                       \
     gcc-fortran                                        \
     openblas                                           \
     r
+
+# dynr dependencies
+# nloptr cmake
+pacman -Syu --noconfirm --needed                       \
+    cmake
