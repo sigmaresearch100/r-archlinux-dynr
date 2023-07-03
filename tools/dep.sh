@@ -34,4 +34,6 @@ pacman -Syu --noconfirm --needed                       \
 # dynr dependencies
 # nloptr cmake
 pacman -Syu --noconfirm --needed                       \
-    cmake
+    cmake                                              \
+    gsl
+
