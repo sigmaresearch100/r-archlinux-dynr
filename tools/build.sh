@@ -19,7 +19,7 @@ Rscript -e "          \
           'igraph',   \
           'fclust'    \
         ),            \
-        repos = c(REPO_NAME = 'https://packagemanager.rstudio.com/all/latest/') \
+        repos = c(REPO_NAME = 'https://packagemanager.rstudio.com/all/latest/')  \
     )                                                                            \
 "
 
